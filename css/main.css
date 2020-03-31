@@ -26,6 +26,7 @@ h2 {
 	letter-spacing: 2px;
 	font-weight: 700;
 	text-transform: uppercase;
+	color: #def2f1;
 }
 
 p {
@@ -36,6 +37,7 @@ p {
 	font-size: 1.5em;
 	letter-spacing: 1.5px;
 	font-weight: 700;
+	color: #feffff;
 }
 
 *,
@@ -48,15 +50,15 @@ p {
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #f2ede3;
-    background: #333;
+    color: #feffff;
+    background: #172528;
     font-size: 0.9em;
     font-weight: 300;
     height: 100%;
 }
 
 a {
-	color: #f0f0f0;
+	color: #feffff;
 	text-decoration: none;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -66,7 +68,7 @@ a {
 }
 
 a:hover {
-	color: #fff;
+	color: #feffff;
 }
 
 .container { height: 100%; width: 100%;}
@@ -87,31 +89,31 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #707070;
+	background: #172528;
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 20%;
-	background: #484848;
+	background: #2B7A78;
 }
 
 .bl-main > section:nth-child(3) {
 	top: 0;
 	left: 40%;
-	background: #333;
+	background: #3AAFA9;
 }
 
 .bl-main > section:nth-child(4) {
 	top: 0%;
 	left: 60%;
-	background: #484848;
+	background: #2B7A78;
 }
 
 .bl-main > section:nth-child(5) {
 	top: 0%;
 	left: 80%;
-	background: #707070;
+	background: #172528;
 }
 
 .bl-main > section:nth-child(6) {
@@ -332,7 +334,7 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #707070;
+	background: #17252A;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -441,10 +443,10 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #707070;
+	background: #172528;
 }
 .bl-main > section:nth-child(2).bl-expand {
-    background: #484848;
+    background: #2B7A78;
     background-image: url('../images/IMG1Overlay.JPG');
     background-repeat: no-repeat;
     background-position: center;
@@ -453,13 +455,13 @@ div.bl-panel-items > div.bl-hide-current-work {
     height: 100%;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #333;
+	background: #3AAFA9;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #484848;
+	background: #2B7A78;
 }
-.bl-main > section:nth-child(4).bl-expand {
-	background: #707070;
+.bl-main > section:nth-child(5).bl-expand {
+	background: #172528;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
