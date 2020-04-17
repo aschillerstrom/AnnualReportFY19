@@ -1,18 +1,7 @@
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot');
-	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.woff') format('woff'),
-		url('../fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 
 
@@ -458,7 +447,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 .bl-main > section:nth-child(2).bl-expand {
     background: #2B7A78;
-    background-image: url('../images/Image1Overlay.jpg');
+    background-image: url('../images/Image1Overlay.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
@@ -467,7 +456,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 .bl-main > section:nth-child(3).bl-expand {
 	background: #3AAFA9;
-	background-image: url('../images/AccessibilityOverlay.jpg');
+	background-image: url('../images/AccessibilityOverlay.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
